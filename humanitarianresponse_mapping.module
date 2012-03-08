@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HumanitarianResponse Mapping feature.
+ */
+
+include_once('humanitarianresponse_mapping.features.inc');
