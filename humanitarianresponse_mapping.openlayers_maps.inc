@@ -10,7 +10,7 @@
 function humanitarianresponse_mapping_openlayers_maps() {
   $export = array();
 
-  $openlayers_maps = new stdClass;
+  $openlayers_maps = new stdClass();
   $openlayers_maps->disabled = FALSE; /* Edit this to true to make a default openlayers_maps disabled initially */
   $openlayers_maps->api_version = 1;
   $openlayers_maps->name = 'humanitarianresponse_default';
@@ -88,7 +88,7 @@ function humanitarianresponse_mapping_openlayers_maps() {
   );
   $export['humanitarianresponse_default'] = $openlayers_maps;
 
-  $openlayers_maps = new stdClass;
+  $openlayers_maps = new stdClass();
   $openlayers_maps->disabled = FALSE; /* Edit this to true to make a default openlayers_maps disabled initially */
   $openlayers_maps->api_version = 1;
   $openlayers_maps->name = 'humanitarianresponse_geofield_formatter';
