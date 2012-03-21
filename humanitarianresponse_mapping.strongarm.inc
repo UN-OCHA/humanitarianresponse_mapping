@@ -21,7 +21,7 @@ function humanitarianresponse_mapping_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'openlayers_source';
-  $strongarm->value = 'sites/all/libraries/OpenLayers/OpenLayers.js';
+  $strongarm->value = 'profiles/humanitarianresponse/libraries/OpenLayers/OpenLayers.js';
   $export['openlayers_source'] = $strongarm;
 
   return $export;
