@@ -1,5 +1,6 @@
 name = "Humanitarianresponse Mapping"
 description = "Humanitarianresponse map stack, required by some features"
+core = "7.x"
 package = "Humanitarianresponse"
 php = "5.2.4"
 dependencies[] = "features"
