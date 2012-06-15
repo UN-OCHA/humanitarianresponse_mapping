@@ -17,3 +17,6 @@ features[openlayers_maps][] = "humanitarianresponse_geofield_formatter"
 features[user_permission][] = "geocoder_service_all_handlers"
 features[variable][] = "openlayers_default_map"
 features[variable][] = "openlayers_source"
+l10n path = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/%core/%project/%project-%release.%language.po
+l10n server = localize.humanitarianresponse.info
+l10n url = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/l10n_server.xml
