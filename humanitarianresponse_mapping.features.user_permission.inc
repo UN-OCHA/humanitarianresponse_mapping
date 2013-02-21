@@ -14,9 +14,9 @@ function humanitarianresponse_mapping_user_default_permissions() {
   $permissions['geocoder_service_all_handlers'] = array(
     'name' => 'geocoder_service_all_handlers',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'geocoder',
   );
