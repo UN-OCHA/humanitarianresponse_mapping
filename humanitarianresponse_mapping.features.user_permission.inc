@@ -10,7 +10,7 @@
 function humanitarianresponse_mapping_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: geocoder_service_all_handlers
+  // Exported permission: geocoder_service_all_handlers.
   $permissions['geocoder_service_all_handlers'] = array(
     'name' => 'geocoder_service_all_handlers',
     'roles' => array(
